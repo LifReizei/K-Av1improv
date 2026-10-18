@@ -55,13 +55,13 @@
       "type": "select",
       "default": "voe",
       "options": [
-	  	{ "value": "", "label": "Tv" },
+	  	{ "value": " ", "label": "Tv" },
         { "value": "voe", "label": "720 Server: voe" },
         { "value": "upnshare", "label": "1080 Server: upnshare" },
-		{ "value": "", "label": "Standard" },
+		{ "value": " ", "label": "Standard" },
         { "value": "yourupload", "label": "MP4 Server: yourupload" },
 		{ "value": "streamtape", "label": "MP4 Server: StreamTape" },
-		{ "value": "", "label": "HIFI" },
+		{ "value": " ", "label": "HIFI" },
         { "value": "mp4upload", "label": "AV1 Server: mp4upload" }
       ]
     }
