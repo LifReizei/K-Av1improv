@@ -1,7 +1,7 @@
 {
   "id": "animeav1-improved",
   "name": "AnimeAV1 Improved",
-  "version": "2.2.0",
+  "version": "2.2.1",
   "apiVersion": 7,
   "author": "LifReizei",
   "description": "Anime en español latino y subtitulado",
@@ -20,8 +20,8 @@
     "jeremyparticipantanything.com",
     "teresapoliticallearn.com",
     "mp4upload.com",
-    "yourupload.com",
     "*.mp4upload.com",
+    "yourupload.com",
     "*.yourupload.com",
     "vidcache.net",
     "streamtape.com",
