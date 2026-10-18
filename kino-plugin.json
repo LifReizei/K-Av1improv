@@ -29,7 +29,7 @@
     "*.tapecontent.net",
     "*.uns.bio"
   ],
-  "streamHosts": ["any"],
+  "streamHosts": "any",
   "capabilities": [
     "home",
     "browse",
