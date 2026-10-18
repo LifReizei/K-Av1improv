@@ -1,12 +1,14 @@
 {
   "id": "animeav1-improved",
-  "name": "AnimeAV1 Improved Plugin",
-  "version": "2.0.1",
+  "name": "AnimeAV1 Improved",
+  "version": "2.1.1",
   "apiVersion": 7,
   "entry": "plugin.js",
-  "description": "Anime en español latino (y subtitulado si no hay) desde animeav1.com, con catálogo en Inicio y Categorías. Prueba Voe, UPNShare, MP4Upload, YourUpload y StreamTape hasta encontrar uno que reproduzca.",
-  "color": "#8E6BFF",
-  "section": "AnimeAV1 Improved",
+  "description": "Anime en español latino y subtitulado",
+  "color": "#000000",
+  "section": {
+   "label": "AnimeAV1 Improved"
+    },
   "categories": [
     "Anime",
     "TV",
