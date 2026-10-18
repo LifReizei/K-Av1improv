@@ -53,15 +53,12 @@
       "key": "servidor",
       "label": "Servidor preferido",
       "type": "select",
-      "default": "none",
+      "default": "voe",
       "options": [
-	  	{ "value": "voe", "label": "Tv" },
         { "value": "voe", "label": "Tv - 720 Server: voe" },
         { "value": "upnshare", "label": "Tv - 1080 Server: upnshare" },
-		{ "value": "yourupload", "label": "Standard" },
         { "value": "yourupload", "label": "Standard - MP4 Server: yourupload" },
 		{ "value": "streamtape", "label": "Standard - MP4 Server: StreamTape" },
-		{ "value": "mp4upload", "label": "HIFI" },
         { "value": "mp4upload", "label": "HIFI - AV1 Server: mp4upload" }
       ]
     }
