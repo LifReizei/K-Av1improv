@@ -54,20 +54,12 @@
       "label": "Servidor preferido",
       "type": "select",
       "default": "voe",
-      "options TV": [
-        { "value": "voe", "label": "TV 720 Server: voe" },
-        { "value": "upnshare", "label": "TV 1080 Server: upnshare" }
-		]
-		    },
-    {
-	  "options MP4 básico": [
-        { "value": "yourupload", "label": "MP4 Server: yourupload" },
-		{ "value": "streamtape", "label": "MP4 Server: StreamTape" }
-		]
-		    },
-    {
-	  "options Software Moderno": [
-        { "value": "mp4upload", "label": "AV1 Server: mp4upload" }
+      "options": [
+        { "value": "voe", "label": "TV - 720 Server: voe" },
+        { "value": "upnshare", "label": "TV - 1080 Server: upnshare" },
+        { "value": "yourupload", "label": "Standard - MP4 Server: yourupload" },
+		{ "value": "streamtape", "label": "Standard - MP4 Server: StreamTape" },
+        { "value": "mp4upload", "label": "HIFI - AV1 Server: mp4upload" }
       ]
     }
   ],
