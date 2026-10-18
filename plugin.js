@@ -558,8 +558,8 @@ export async function resolve(ref) {
   throw kino.error("unavailable", failures.join("; "));
 }
 
-const ROW_LIMIT = 60;
-const PAGE_LIMIT = 100;
+const ROW_LIMIT = 120;
+const PAGE_LIMIT = 200;
 
 const GENEROS = [
   ["accion", "Acción"],
