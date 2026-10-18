@@ -2,7 +2,7 @@
   "id": "animeav1-improved",
   "name": "AnimeAV1 Improved",
   "version": "2.1.1",
-  "apiVersion": 7,
+  "apiVersion": "7",
   "entry": "plugin.js",
   "description": "Anime en español latino y subtitulado",
   "color": "#000000",
@@ -53,7 +53,7 @@
       "key": "servidor",
       "label": "Servidor preferido",
       "type": "select",
-      "default": "voe",
+      "default": "none",
       "options": [
 	  	{ "value": "voe", "label": "Tv" },
         { "value": "voe", "label": "Tv - 720 Server: voe" },
