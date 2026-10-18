@@ -1,6 +1,6 @@
 {
   "id": "animeav1-improved",
-  "name": "AnimeAV1 Improved Plugin",
+  "name": "AnimeAV1 Improved",
   "version": "2.1.1",
   "apiVersion": 7,
   "entry": "plugin.js",
