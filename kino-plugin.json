@@ -56,13 +56,14 @@
       "default": "voe",
       "options": [
 	  	{ "value": "voe", "label": "Tv" },
-        { "value": "voe", "label": "720 Server: voe" },
-        { "value": "upnshare", "label": "1080 Server: upnshare" },
+        { "value": "voe", "label": "Tv - 720 Server: voe" },
+        { "value": "upnshare", "label": "Tv - 1080 Server: upnshare" },
 		{ "value": "yourupload", "label": "Standard" },
-        { "value": "yourupload", "label": "MP4 Server: yourupload" },
-		{ "value": "streamtape", "label": "MP4 Server: StreamTape" },
+        { "value": "yourupload", "label": "Standard - MP4 Server: yourupload" },
+		{ "value": "streamtape", "label": "Standard - MP4 Server: StreamTape" },
 		{ "value": "mp4upload", "label": "HIFI" },
-        { "value": "mp4upload", "label": "AV1 Server: mp4upload" }
+        { "value": "mp4upload", "label": "HIFI - AV1 Server: mp4upload" }
+		}
       ]
     }
   ],
