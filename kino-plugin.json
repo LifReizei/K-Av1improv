@@ -1,0 +1,65 @@
+{
+  "id": "animeav1-improved",
+  "name": "AnimeAV1 Improved Plugin",
+  "version": "2.0.1",
+  "apiVersion": 7,
+  "entry": "plugin.js",
+  "description": "Anime en español latino (y subtitulado si no hay) desde animeav1.com, con catálogo en Inicio y Categorías. Prueba Voe, UPNShare, MP4Upload, YourUpload y StreamTape hasta encontrar uno que reproduzca.",
+  "color": "#8E6BFF",
+  "section": "AnimeAV1 Improved",
+  "categories": [
+    "anime"
+  ],
+  "hosts": [
+    "animeav1.com",
+    "cdn.animeav1.com",
+    "voe.sx",
+    "jeremyparticipantanything.com",
+    "teresapoliticallearn.com",
+    "mp4upload.com",
+    "yourupload.com",
+    "*.mp4upload.com",
+    "*.yourupload.com",
+    "vidcache.net",
+    "streamtape.com",
+    "tapecontent.net",
+    "*.tapecontent.net",
+    "*.uns.bio"
+  ],
+  "streamHosts": "any",
+  "capabilities": [
+    "home",
+    "browse",
+    "search",
+    "episodes",
+    "resolve",
+    "download"
+  ],
+  "settings": [
+    {
+      "key": "idioma",
+      "label": "Idioma",
+      "type": "select",
+      "default": "sub",
+      "options": [
+        { "value": "sub", "label": "Subtitulado" },
+        { "value": "dub", "label": "Doblado" },
+        { "value": "dub-sub", "label": "Subtitulado (si no hay doblado)" }
+      ]
+    },
+    {
+      "key": "servidor",
+      "label": "Servidor preferido",
+      "type": "select",
+      "default": "voe",
+      "options": [
+        { "value": "voe", "label": "TV 720" },
+        { "value": "upnshare", "label": "1080 TV" },
+        { "value": "yourupload", "label": "MP4 básico" },
+        { "value": "mp4upload", "label": "AV1 software moderno" },
+        { "value": "streamtape", "label": "StreamTape" }
+      ]
+    }
+  ],
+  "icon": "icon.png"
+}
