@@ -558,7 +558,7 @@ export async function resolve(ref) {
   throw kino.error("unavailable", failures.join("; "));
 }
 
-const ROW_LIMIT = 120;
+const ROW_LIMIT = 20;
 const PAGE_LIMIT = 200;
 
 const GENEROS = [
