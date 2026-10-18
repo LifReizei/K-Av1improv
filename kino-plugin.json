@@ -1,13 +1,13 @@
 {
   "id": "animeav1-improved",
   "name": "AnimeAV1 Improved Plugin",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "apiVersion": 7,
   "entry": "plugin.js",
   "description": "Anime en español latino (y subtitulado si no hay) desde animeav1.com, con catálogo en Inicio y Categorías. Prueba Voe, UPNShare, MP4Upload, YourUpload y StreamTape hasta encontrar uno que reproduzca.",
-  "color": "#8E6BFF",
+  "color": "#000000",
   "section": {
-    "label": "AnimeAV1 Improved"
+   "label": "AnimeAV1 Improved"
     },
   "categories": [
     "anime"
@@ -54,12 +54,16 @@
       "label": "Servidor preferido",
       "type": "select",
       "default": "voe",
-      "options": [
-        { "value": "voe", "label": "TV 720" },
-        { "value": "upnshare", "label": "1080 TV" },
-        { "value": "yourupload", "label": "MP4 básico" },
-        { "value": "mp4upload", "label": "AV1 software moderno" },
-        { "value": "streamtape", "label": "StreamTape" }
+      "options TV": [
+        { "value": "voe", "label": "TV 720 Server: voe" },
+        { "value": "upnshare", "label": "TV 1080 Server: upnshare" }
+		]
+	  "options MP4 básico": [
+        { "value": "yourupload", "label": "MP4 Server: yourupload" },
+		{ "value": "streamtape", "label": "MP4 Server: StreamTape" }
+		]
+	  "options Software Moderno": [
+        { "value": "mp4upload", "label": "AV1 Server: mp4upload" }
       ]
     }
   ],
