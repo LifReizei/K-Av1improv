@@ -1,0 +1,65 @@
+{
+  "id": "animeav1-improved",
+  "name": "AnimeAV1 - Plugin Mejorado",
+  "version": "1.8.0",
+  "apiVersion": 7,
+  "entry": "plugin.js",
+  "description": "Anime en español latino (y subtitulado si no hay) desde animeav1.com, con catálogo en Inicio y Categorías. Mejorado para mostrar todos los episodios y múltiples temporadas organizadas.",
+  "color": "#8E6BFF",
+  "section": {
+    "label": "AnimeAV1"
+  },
+  "categories": [],
+  "hosts": [
+    "animeav1.com",
+    "cdn.animeav1.com",
+    "voe.sx",
+    "jeremyparticipantanything.com",
+    "teresapoliticallearn.com",
+    "mp4upload.com",
+    "yourupload.com",
+    "*.mp4upload.com",
+    "*.yourupload.com",
+    "vidcache.net",
+    "streamtape.com",
+    "tapecontent.net",
+    "*.tapecontent.net",
+    "*.uns.bio"
+  ],
+  "streamHosts": "any",
+  "capabilities": [
+    "home",
+    "browse",
+    "search",
+    "episodes",
+    "resolve",
+    "download"
+  ],
+  "settings": [
+    {
+      "key": "idioma",
+      "label": "Idioma",
+      "type": "select",
+      "default": "dub-sub",
+      "options": [
+        { "value": "dub", "label": "Solo latino" },
+        { "value": "dub-sub", "label": "Latino, o subtitulado si no hay" },
+        { "value": "sub", "label": "Solo subtitulado" }
+      ]
+    },
+    {
+      "key": "servidor",
+      "label": "Servidor preferido",
+      "type": "select",
+      "default": "voe",
+      "options": [
+        { "value": "voe", "label": "Voe (720p, funciona en TV)" },
+        { "value": "upnshare", "label": "UPNShare (hasta 1080p, funciona en TV)" },
+        { "value": "mp4upload", "label": "MP4Upload (1080p AV1, celular)" },
+        { "value": "yourupload", "label": "YourUpload (mp4)" },
+        { "value": "streamtape", "label": "StreamTape (mp4)" }
+      ]
+    }
+  ],
+  "icon": "icon.png"
+}
