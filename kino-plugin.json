@@ -1,10 +1,10 @@
 {
   "id": "animeav1-improved",
-  "name": "AnimeAV1 Improved",
+  "name": "AnimeAV1 Improved Plugin",
   "version": "2.1.1",
   "apiVersion": 7,
   "entry": "plugin.js",
-  "description": "Anime en español latino y subtitulado",
+  "description": "Anime en español latinoy subtitulado",
   "color": "#000000",
   "section": {
    "label": "AnimeAV1 Improved"
