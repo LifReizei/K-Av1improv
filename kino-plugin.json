@@ -63,7 +63,6 @@
 		{ "value": "streamtape", "label": "Standard - MP4 Server: StreamTape" },
 		{ "value": "mp4upload", "label": "HIFI" },
         { "value": "mp4upload", "label": "HIFI - AV1 Server: mp4upload" }
-		}
       ]
     }
   ],
